@@ -1,6 +1,12 @@
+li.details > input {
+  float: left;
+  margin-left: 0;
+}
+
 .contacts li a.twitter:hover {
   color: #1DA1F2;
 }
+  
 .contacts li a.instagram:hover {
   color: #bc2a8d;
 }
