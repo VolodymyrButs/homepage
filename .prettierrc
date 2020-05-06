@@ -5,16 +5,5 @@
     "tabWidth": 4,
     "trailingComma": "es5",
     "ecmaVersion": 11,
-    "sourceType": "module",
-    "ecmaFeatures": {
-        "tsx": true
-    },
-    "overrides": [
-        {
-            "files": "*.yml",
-            "options": {
-                "tabWidth": 2
-            }
-        }
-    ]
+    "sourceType": "module"
 }
