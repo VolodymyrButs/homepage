@@ -476,9 +476,7 @@
                                 <section>
                                     <h3>Languages</h3>
                                     <p class="tags small">
-                                        <span
-                                            class="language"
-                                            lang="zh"
+                                        <span class="language" lang="zh"
                                             >&#x1f1e8;&#x1f1f3;
                                             <span>MANDARIN</span>
                                         </span>
@@ -622,5 +620,12 @@
                 </div>
             </article>
         </main>
+        <script>
+            document
+                .getElementById('meh')
+                .addEventListener('click', function () {
+                    this.childNodes[3].play()
+                })
+        </script>
     </body>
 </html>
